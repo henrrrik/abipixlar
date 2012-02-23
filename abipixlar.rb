@@ -59,7 +59,7 @@ __END__
     <% else %>
     <ul id="sizes">
     <% @sizes.each do |size| %>
-      <li>Datum: <%= size.created_at %>, Storlek: <%= size.size %></li>
+      <li>Tidpunkt: <%= size.created_at %>, Storlek: <%= size.size %></li>
     <% end %>
     </ul>
     <% end %>
